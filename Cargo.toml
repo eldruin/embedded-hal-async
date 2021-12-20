@@ -1,0 +1,20 @@
+[package]
+authors = [
+  "The Embedded HAL Team <embedded-hal@teams.rust-embedded.org>",
+  "Jorge Aparicio <jorge@japaric.io>",
+  "Jonathan 'theJPster' Pallant <github@thejpster.org.uk>",
+  "Diego Barrios Romero <eldruin@gmail.com>",
+]
+categories = ["asynchronous", "embedded", "hardware-support", "no-std"]
+description = " An asynchronous Hardware Abstraction Layer (HAL) for embedded systems"
+documentation = "https://docs.rs/embedded-hal-async"
+edition = "2018"
+keywords = ["hal", "IO"]
+license = "MIT OR Apache-2.0"
+name = "embedded-hal-async"
+readme = "README.md"
+repository = "https://github.com/eldruin/embedded-hal-async"
+version = "0.0.1"
+
+[dependencies]
+embedded-hal = "=1.0.0-alpha.6"
